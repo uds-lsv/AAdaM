@@ -4,7 +4,7 @@ This repository contains code for our system paper:
 [AAdaM at SemEval-2024 Task 1: Augmentation and Adaptation for Multilingual Semantic Textual Relatedness](https://arxiv.org/abs/2404.01490).
 
 ## Setup
-Create your docker image or virtual environment based on the provided docker file (./Dockerfile). Specifically,
+Create your docker image or virtual environment based on the provided docker file ([Dockerfile](https://github.com/uds-lsv/AAdaM/blob/master/Dockerfile)). Specifically,
 ```
 python: 3.8
 torch: 1.14.0
