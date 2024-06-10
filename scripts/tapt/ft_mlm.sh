@@ -9,7 +9,7 @@ MODEL=Davlan/afro-xlmr-large-61L
 for LANG in eng arq ary amh hau kin esp tel mar; do
   OUTPUT_DIR=$PROJECT_DIR/checkpoints/afro_ft/mlm/${LANG}
 
-  python $PROJECT_DIR/run_mlm.py \
+  python $PROJECT_DIR/train_mlm.py \
     --model_name_or_path $MODEL \
     --output_dir $OUTPUT_DIR \
     --train_file $PROJECT_DIR/data/tapt/${LANG}.txt \
