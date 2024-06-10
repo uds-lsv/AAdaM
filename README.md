@@ -1,7 +1,9 @@
 # AAdaM at SemEval-2024 Task 1: Augmentation and Adaptation for Multilingual Semantic Textual Relatedness
 
 This repository contains code for our system paper: 
-[AAdaM at SemEval-2024 Task 1: Augmentation and Adaptation for Multilingual Semantic Textual Relatedness](https://arxiv.org/abs/2404.01490).
+[AAdaM at SemEval-2024 Task 1: Augmentation and Adaptation for Multilingual Semantic Textual Relatedness](https://arxiv.org/abs/2404.01490). If you find this repository useful, please consider citing our paper.
+
+Contact: Miaoran Zhang (mzhang@lsv.uni-saarland.de)
 
 ## Setup
 Create your docker image or virtual environment based on the provided docker file ([Dockerfile](https://github.com/uds-lsv/AAdaM/blob/master/Dockerfile)). Specifically,
