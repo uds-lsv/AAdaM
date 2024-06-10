@@ -113,7 +113,7 @@ if __name__ == "__main__" :
 
     ## (1) Split the STR task data to NUM_FOLDS for cross-validation
     data_dir = './data/track_a/'
-    output_dir = './data/track_a'
+    output_dir = './data/track_a/n_fold/'
     split_str_data(args.data_dir, args.output_dir, languages)
 
     ## (2) Get the unlabeled sentences from STR task data for task adaptive pretraining
@@ -122,7 +122,7 @@ if __name__ == "__main__" :
     # os.makedirs(args.output_dir, exist_ok=True)
     # create_tapt_data(args.data_dir, args.output_dir, languages)
 
-    ## (3) Prepare the monolingual data for training language adapters
+    ## (3) Prepare the monolingual data (downloaded Leipzig corpora) for training language adapters
     #data_dir = './data/monolingual/'
     #output_dir = './data/monolingual/'
     #prepare_mono_data(data_dir, output_dir, languages)
